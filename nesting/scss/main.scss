@@ -1,0 +1,37 @@
+.main {
+  background-color: aqua;
+  .main-header {
+    font-size: 2em;
+  }
+  .main-paragraf {
+    font-size: 1.4em;
+  }
+}
+
+.main,
+.footer {
+  h1,
+  p {
+    letter-spacing: 1px;
+  }
+}
+
+// parent selector
+
+.main {
+  .container & {
+    font-weight: 800;
+  }
+  &:hover {
+    color: red;
+  }
+}
+
+.main {
+  & &-header {
+    font-size: 1rem;
+  }
+  & &-paragraf {
+    font-size: 1rem;
+  }
+}

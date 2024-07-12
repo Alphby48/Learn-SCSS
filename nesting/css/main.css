@@ -1,0 +1,30 @@
+.main {
+  background-color: aqua;
+}
+.main .main-header {
+  font-size: 2em;
+}
+.main .main-paragraf {
+  font-size: 1.4em;
+}
+
+.main h1,
+.main p,
+.footer h1,
+.footer p {
+  letter-spacing: 1px;
+}
+
+.container .main {
+  font-weight: 800;
+}
+.main:hover {
+  color: red;
+}
+
+.main .main-header {
+  font-size: 1rem;
+}
+.main .main-paragraf {
+  font-size: 1rem;
+} /*# sourceMappingURL=main.css.map */
